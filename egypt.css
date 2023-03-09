@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 30px 30px;
+    border-radius: 20px;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+
+.banner {
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+    background-image: url("images/piramid.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+nav {
+    height: auto;
+    width: 100%;
+    position: absolute;
+}
+
+.left {
+    width: 20%;
+}
+
+.right {
+    width: 60%;
+    display: flex;
+
+    justify-content: flex-end;
+}
+
+.right a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Alegreya', serif;
+    font-size: 22px;
+    margin: auto;
+}
+
+.btn_sub {
+    border-radius: 18px;
+    border: none;
+    padding: 1px 12px;
+}
+
+.btn_sub:hover {
+    background-color: #3330ee;
+    color: white;
+    transition-duration: 0.8s;
+}
+
+.right a:hover {
+    color: rgb(3, 3, 3);
+}
+
+/* bali para */
+
+.container{
+    display: flex;
+}
+
+.bali_para {
+    width: 60%;
+
+}
+
+.name {
+    display: flex;
+}
+.name h1{
+    font-size: 80px;
+    color: blue;
+    font-family: 'Alegreya', serif;
+
+
+}
+.name a{
+    text-decoration: none;
+    color: black;
+    font-size: 80px;
+    font-family: 'Alegreya', serif;
+
+}
+.indonesia{
+    padding-top: 45px;
+    padding-left: 10px;
+}
+.pad-t-25{
+    padding-top: 25px;
+    }
+.about_bali p{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Alegreya', serif;
+    line-height: 34px;
+
+}
+
+/* START PLANNING YOUR TRIP */
+.plan_your_trip{
+    width: 40%;
+}
+.pyt_para h5{
+    text-align: center;
+padding-bottom: 20px;
+}
+
+.date_place{
+    display: flex;
+    justify-content: space-between;
+}
+.btv{
+    height: 250px;
+    width: 210px;
+    display: inline-block;
+    background-color: bisque;
+    border-radius: 20px;
+    padding: 15px;
+}
+.bpv{
+    height: 250px;
+    width: 210px;
+    display: inline-block;
+    background-color: rgb(196, 217, 255);
+    border-radius: 20px;
+    padding: 15px;
+
+}
+.size{
+    font-size: 35px;
+    padding-bottom: 100px;
+}
+
+
+/* ------------------------------footer part--------------------------- */
+
+footer {
+    background-color: rgb(160, 158, 158);
+    
+  }
+  
+  .footer{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  .footer-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 30px 0px;
+  }
+  .l-g{
+    padding: 0px 30px;
+  }
+  
+  .width-16 {
+    width: 16%;
+  }
+  
+  .width-36 {
+    width: 36%;
+  }
+  
+  .pad-t-25 {
+    padding-top: 25px;
+  }
+  
+  .pad-t-25 h4 {
+    color: #0166aa;
+  }
+  
+  .l-g p {
+    margin-bottom: .4rem !important;
+   
+  
+  }
+  .l-g p:hover{
+    text-align: center;
+    color: #2c2c2c;
+    
+    
+  }
+  .l-g h5{
+    padding: 20px 0px;
+    color: #074e04;
+    text-shadow: 4px 3px 6px rgba(0,0,0,0.7);
+  }
+  
+  
+  .l-g a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  
+  }
+  .follow{
+    padding: 30px 0px;
+  }
+  
+  
+  .follow h1 {
+    color: rgb(45, 117, 212);
+  }
+  
+  .follow i {
+    font-size: 30px;
+    /* padding-right: 10px; */
+  }
+  
+  .foot {
+    width: 70%;
+  }
+  
+  .foot p {
+    font-size: 15px;
+  }
+  
+  .foot_src {
+    border-radius: 20px;
+    border: 1px solid black !important;
+  }
+  
+  .end {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+  
+  .end h6 {
+    padding-top: 35px;
+  }
+  
+
+
+
+
+
+
+/* media screen  */
+

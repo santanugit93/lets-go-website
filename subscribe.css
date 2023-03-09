@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 100px;
+}
+.banner {
+    height: 750px;
+    width: 100%;
+    background-size: cover;
+    background:linear-gradient(to top,rgba(22, 22, 22, 0.808),rgba(163, 162, 162, 0.089),rgba(255, 255, 255, 0)),url("images/moutain.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+nav {
+  height: auto;
+  width: 100%;
+  position: absolute;
+}
+
+.left {
+  width: 20%;
+}
+
+.right {
+  width: 60%;
+  display: flex;
+
+  justify-content: flex-end;
+}
+
+.right a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-family: 'Alegreya', serif;
+  font-size: 22px;
+  margin: auto;
+}
+
+.btn_sub {
+  border-radius: 18px;
+  border: none;
+  padding: 1px 12px;
+}
+
+.btn_sub:hover {
+  background-color: #3330ee;
+  color: white;
+  transition-duration: 0.8s;
+}
+
+.right a:hover {
+  color: rgb(3, 3, 3);
+}
+
+.b-para {
+  width: 70%;
+  height: 500px;
+  padding-left: 9%;
+  padding-top: 100px;
+}
+
+.b-para h1 {
+  font-size: 85px;
+  top: 25%;
+  color: rgba(10, 3, 2, 0.664);
+}
+.b-para h5,h6{
+    color: aliceblue;
+}
+.b-para a,p{
+    color: white;
+
+}
+.b-para i{
+    padding: 0px 10px 0px 20px;
+}
+
+.d-flex {
+  font-size: 85px;
+  padding-top: 2%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.me-2 {
+  width: 600px;
+  height: 45px;
+  border-radius: 20px !important;
+}
+
+.btn {
+  border-radius: 1.5rem;
+}
+
+
+
